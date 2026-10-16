@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ai-agent-rag-demo
+Version: 0.1.0
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
+Provides-Extra: openai
+Requires-Dist: openai>=1.0; extra == "openai"
